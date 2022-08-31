@@ -1,0 +1,58 @@
+1. JB 1-11 all existing employees should be eligible
+
+		Test 1:  JB 1-3
+
+
+		Test 2:  JB 4-5
+
+
+		Test 3:  JB 6-7
+
+
+		Test 4:  JB 8-9
+
+
+		Test 5:  JB 10-11
+	 
+
+
+
+
+
+2. For New Hires:
+
+	JB 8-9:   should be eligible with one PD Document rating greater than 3
+
+			A. 1 PD - Rating >= 3           ----THEN ELIGIBLE        
+			B. 1 PD - Rating < 3		  ----THEN NOT ELIGIBLE 
+			C. 2 PD - Rating >= 3           ----THEN ELIGIBLE 
+			D. 2 PD - Rating < 3            ----THEN NOT ELIGIBLE
+			E. 0 PD - No Rating             ----THEN NOT ELIGIBLE
+			
+
+	JB 10-11: should be eligible with one PD Document rating greater than 3 AND Prior work experience is less than 10 years
+
+
+			A. 1 PD - Rating >= 3 AND PWE < 10   ----THEN ELIGIBLE 
+			B. 1 PD - Rating >= 3 AND PWE > 10   ----THEN NOT ELIGIBLE 
+			C. 1 PD - Rating < 3  AND PWE > 10   ----THEN NOT ELIGIBLE 
+			D. 1 PD - Rating < 3  AND PWE < 10   ----THEN NOT ELIGIBLE 
+
+
+
+			A. 2 PD - Rating >= 3 AND PWE < 10   ----THEN ELIGIBLE 
+			B. 2 PD - Rating >= 3 AND PWE > 10   ----THEN NOT ELIGIBLE 
+			C. 2 PD - Rating < 3  AND PWE > 10   ----THEN NOT ELIGIBLE 
+			D. 2 PD - Rating < 3  AND PWE < 10   ----THEN NOT ELIGIBLE 
+
+			
+			E. 0 PD - No Rating                  ----THEN NOT ELIGIBLE
+			
+
+
+
+
+
+
+
+
